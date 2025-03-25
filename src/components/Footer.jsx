@@ -1,6 +1,7 @@
 import React from 'react';
 import LogoImg from '../assets/logo.png';
 
+
 const Footer = () => {
   return (
     <section className="py-10 sm:pt-16 lg:pt-24">
