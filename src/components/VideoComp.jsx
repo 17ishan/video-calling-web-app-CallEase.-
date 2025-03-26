@@ -15,8 +15,10 @@ const VideoComp = () => {
             if (!roomID || !containerRef.current) return;
 
 
-            const appID = 2046966053;
-            const serverSecret = "49045cc7498f82af2f99d3262070d5f5";
+            // const appID = 2046966053;
+            const appID = 870444969;
+            // const serverSecret = "49045cc7498f82af2f99d3262070d5f5";
+            const serverSecret = "10cbeb4e7cd74f83f5d4345b793246ec";
             const kitToken = ZegoUIKitPrebuilt.generateKitTokenForTest(appID, serverSecret, roomID, Date.now().toString(), "Anonymous");
             const zp = ZegoUIKitPrebuilt.create(kitToken);
 
