@@ -4,9 +4,9 @@ import LogoImg from '../assets/logo.png';
 
 const Footer = () => {
   return (
-    <section className="py-10 sm:pt-16 lg:pt-24">
+    <section className="py-10 sm:pt-16 lg:pt-24 ">
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-        <div className="grid grid-cols-2 md:col-span-3 lg:grid-cols-6 gap-y-16 gap-x-12">git clone https://github.com/git/git
+        <div className="grid grid-cols-2 md:col-span-3 lg:grid-cols-6 gap-y-16 gap-x-12">
 
           <div className="col-span-2 md:col-span-3 lg:col-span-2 lg:pr-8">
             <div className="flex items-center">
@@ -52,7 +52,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div>
+          <div className>
             <p className="text-sm font-semibold tracking-widest text-gray-400 uppercase">Discover</p>
 
             <ul className="mt-6 space-y-4">
