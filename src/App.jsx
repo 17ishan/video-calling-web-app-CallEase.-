@@ -7,12 +7,13 @@ import VideoComp from "./components/VideoComp";
 
 const App = () => {
   return (
+    <>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/room/:roomID" element={<VideoComp/>}/>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/room/:roomID' element={<VideoComp/>}/>
       </Routes>
-    </BrowserRouter>
+    </BrowserRouter></>
   )
 }
 
