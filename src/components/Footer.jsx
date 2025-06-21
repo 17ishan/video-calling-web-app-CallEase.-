@@ -112,7 +112,7 @@ const Footer = () => {
 
         <hr className="mt-16 mb-10 border-gray-200" />
 
-        <p className="text-sm text-center text-gray-600">© 2022, All Rights Reserved. Crafted with ❤️ by Postcraft</p>
+        <p className="text-sm text-center text-gray-600">© 2022, All Rights Reserved. Developed by <span className='font-bold'> Ishan Sinha </span></p>
       </div>
     </section>
   );
